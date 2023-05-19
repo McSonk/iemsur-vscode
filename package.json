@@ -1,5 +1,6 @@
 {
   "name": "iemsur",
+  "publisher": "erom-n",
   "displayName": "iemsur",
   "description": "Para hacer cosas de cuestionario más rápido",
   "version": "0.0.1",
@@ -12,10 +13,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "iemsur.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "iemsur.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
